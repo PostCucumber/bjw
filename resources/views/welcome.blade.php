@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Big Jim's Walk, Inc.
+                    Big Jim's Walk
                 </div>
             </div>
         </div>
