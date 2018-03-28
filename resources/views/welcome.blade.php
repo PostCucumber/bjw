@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Big Jim's Walk
                 </div>
 
                 <div class="links">
