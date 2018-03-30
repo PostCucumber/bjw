@@ -45,7 +45,7 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   transparent: "transparent",
 
-  black: "#22292f",
+  black: "#222222",
   "grey-darkest": "#3d4852",
   "grey-darker": "#606f7b",
   "grey-dark": "#8795a1",
@@ -82,7 +82,7 @@ let colors = {
   "green-darkest": "#0f2f21",
   "green-darker": "#1a4731",
   "green-dark": "#1f9d55",
-  green: "#38c172",
+  green: "#77c73e",
   "green-light": "#51d88a",
   "green-lighter": "#a2f5bf",
   "green-lightest": "#e3fcec",
@@ -137,7 +137,7 @@ let colors = {
     return this["orange-dark"];
   },
   get ["brand"]() {
-    return this["orange"];
+    return this["green"];
   },
   get ["brand-light"]() {
     return this["orange-light"];
