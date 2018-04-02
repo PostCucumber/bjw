@@ -25,7 +25,7 @@
             <a href="" class="no-underline font-normal text-white hover:text-black px-2">Contribute</a>
         </div>
     </div>
-    <div class="flex h-screen bg-cover bg-top mt-12" style="background-image:url('https://bigjimswalk.com/wp-content/uploads/2017/11/cropped-jim-with-cross.jpg')">
+    <div class="flex h-screen bg-cover bg-top mt-12" style="background-image:url('https://bigjimswalk.com/wp-content/uploads/2018/04/jim-with-cross_gradient.jpg')">
         <div class="absolute mt-24 ml-16 pin-t pin-l">
             <img class="w-48" src="https://bigjimswalk.com/wp-content/themes/vega/assets/img/BJW_logo-trans.png">
         </div>
