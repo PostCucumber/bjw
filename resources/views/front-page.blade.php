@@ -15,26 +15,27 @@
 </head>
 <body>
     <div class="flex flex-col">
-        <div class="absolute pin-t pin-l py-4 px-4 bg-black w-full">
+        <div class="absolute pin-t pin-l py-4 px-4 bg-black w-full h-12">
             <a href="" class="no-underline font-Rubik text-white hover:text-brand px-2">The Walk</a>
             <a href="" class="no-underline font-normal text-white hover:text-brand px-2">About</a>
             <a href="" class="no-underline font-normal text-white hover:text-brand px-2">Testimonies</a>
             <a href="" class="no-underline font-normal text-white hover:text-brand px-2">Contact</a>
         </div>
-        <div class="absolute pin-t pin-r py-4 px-4 bg-brand">
+        <div class="absolute pin-t pin-r py-4 px-4 bg-brand h-12">
             <a href="" class="no-underline font-normal text-white hover:text-black px-2">Contribute</a>
         </div>
     </div>
-    <div class="flex h-screen bg-cover" style="background-image:url('https://bigjimswalk.com/wp-content/uploads/2017/11/cropped-jim-with-cross.jpg')">
+    <div class="flex h-screen bg-cover bg-top mt-12" style="background-image:url('https://bigjimswalk.com/wp-content/uploads/2017/11/cropped-jim-with-cross.jpg')">
         <div class="absolute mt-24 ml-16 pin-t pin-l">
             <img class="w-48" src="https://bigjimswalk.com/wp-content/themes/vega/assets/img/BJW_logo-trans.png">
         </div>
     </div>
     <div class="flex-col bg-black h-auto text-white">
         <h1 class="text-center text-4xl border-b-2 border-bottom border-brand mx-24 pt-16 pb-8">A Journey of Hope</h1>
-        <p class="text-left mx-8 md:mx-16 leading-loose text-lg pt-8 md:pb-4 pb-16">Big Jim’s Walk, Inc is a non-profit organization with advocates serving the community and directing those who suffer from addiction. We assist in addiction recovery by bringing awareness to the epidemic of addiction through a message of hope in Jesus Christ! Big Jim’s Walk plans to build an addiction recovery center, C.A.M.P Redemption, with help from donors and other community members.</p>
+        <p class="text-left mx-8 md:mx-16 leading-loose text-lg pt-8 pb-8 lg:pb-16">Big Jim’s Walk, Inc is a non-profit organization with advocates serving the community and directing those who suffer from addiction. We assist in addiction recovery by bringing awareness to the epidemic of addiction through a message of hope in Jesus Christ! Big Jim’s Walk plans to build an addiction recovery center, C.A.M.P Redemption, with help from donors and other community members.</p>
     </div>
-    <div class="bg-black bg-bottom bg-center w-full h-64 bg-auto bg-no-repeat pt-16" style="background-image:url('https://bigjimswalk.com/wp-content/uploads/2017/05/mountains.png')">
+    <div class="bg-black">
+        <img class="w-full h-auto" src="https://bigjimswalk.com/wp-content/uploads/2017/05/mountains.png">
     </div>
     <div class="bg-brand h-64 text-white">
         <h1 class="text-center p-8 text-4xl border-b-2 border-bottom border-brand mx-8">The numbers so far...</h1>
