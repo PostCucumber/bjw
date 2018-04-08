@@ -1,17 +1,8 @@
 @extends('layouts.app')
 
+@yield('navigation')
 @section('content')
-<div class="flex flex-col">
-    <div class="absolute pin-t pin-l py-4 px-4 bg-black w-full h-12">
-        <a href="" class="no-underline font-Rubik text-white hover:text-brand px-2">The Walk</a>
-        <a href="" class="no-underline font-normal text-white hover:text-brand px-2">About</a>
-        <a href="" class="no-underline font-normal text-white hover:text-brand px-2">Testimonies</a>
-        <a href="" class="no-underline font-normal text-white hover:text-brand px-2">Contact</a>
-    </div>
-    <div class="absolute pin-t pin-r py-4 px-4 bg-brand h-12">
-        <a href="" class="no-underline font-normal text-white hover:text-black px-2">Contribute</a>
-    </div>
-</div>
+
 <div class="front-page-cover-image flex h-screen bg-cover bg-top mt-12">
     <div class="absolute mt-24 ml-16 pin-t pin-l">
         <img class="w-48" src="https://bigjimswalk.com/wp-content/themes/vega/assets/img/BJW_logo-trans.png">
