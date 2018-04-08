@@ -56,3 +56,12 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+ .front-page-cover-image {
+    background-image: url('https://bigjimswalk.com/wp-content/uploads/2018/04/jim-with-cross_gradient-1.jpg');
+    /*background-image: url('/storage/img/front-page-cover-image.jpg')*/
+  }
+
+.logo {
+    background-image: url('/storage/img/logo.svg');
+}

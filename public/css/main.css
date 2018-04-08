@@ -2878,6 +2878,10 @@ button,
   margin: 6rem;
 }
 
+.m-48 {
+  margin: 12rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -2984,6 +2988,16 @@ button,
 .mx-24 {
   margin-left: 6rem;
   margin-right: 6rem;
+}
+
+.my-48 {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.mx-48 {
+  margin-left: 12rem;
+  margin-right: 12rem;
 }
 
 .my-auto {
@@ -3164,6 +3178,22 @@ button,
 
 .ml-24 {
   margin-left: 6rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mr-48 {
+  margin-right: 12rem;
+}
+
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
+.ml-48 {
+  margin-left: 12rem;
 }
 
 .mt-auto {
@@ -5014,6 +5044,15 @@ button,
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+
+.front-page-cover-image {
+  background-image: url('https://bigjimswalk.com/wp-content/uploads/2018/04/jim-with-cross_gradient-1.jpg');
+  /*background-image: url('/storage/img/front-page-cover-image.jpg')*/
+}
+
+.logo {
+  background-image: url('/storage/img/logo.svg');
+}
 
 @media (min-width: 576px) {
   .sm\:list-reset {
@@ -7191,6 +7230,10 @@ button,
     margin: 6rem;
   }
 
+  .sm\:m-48 {
+    margin: 12rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -7297,6 +7340,16 @@ button,
   .sm\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+
+  .sm\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .sm\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .sm\:my-auto {
@@ -7477,6 +7530,22 @@ button,
 
   .sm\:ml-24 {
     margin-left: 6rem;
+  }
+
+  .sm\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .sm\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .sm\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .sm\:ml-48 {
+    margin-left: 12rem;
   }
 
   .sm\:mt-auto {
@@ -11482,6 +11551,10 @@ button,
     margin: 6rem;
   }
 
+  .md\:m-48 {
+    margin: 12rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -11588,6 +11661,16 @@ button,
   .md\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+
+  .md\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .md\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .md\:my-auto {
@@ -11768,6 +11851,22 @@ button,
 
   .md\:ml-24 {
     margin-left: 6rem;
+  }
+
+  .md\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .md\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .md\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .md\:ml-48 {
+    margin-left: 12rem;
   }
 
   .md\:mt-auto {
@@ -15773,6 +15872,10 @@ button,
     margin: 6rem;
   }
 
+  .lg\:m-48 {
+    margin: 12rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -15879,6 +15982,16 @@ button,
   .lg\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+
+  .lg\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .lg\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .lg\:my-auto {
@@ -16059,6 +16172,22 @@ button,
 
   .lg\:ml-24 {
     margin-left: 6rem;
+  }
+
+  .lg\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .lg\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .lg\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .lg\:ml-48 {
+    margin-left: 12rem;
   }
 
   .lg\:mt-auto {
@@ -20064,6 +20193,10 @@ button,
     margin: 6rem;
   }
 
+  .xl\:m-48 {
+    margin: 12rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -20170,6 +20303,16 @@ button,
   .xl\:mx-24 {
     margin-left: 6rem;
     margin-right: 6rem;
+  }
+
+  .xl\:my-48 {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
+  .xl\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
   }
 
   .xl\:my-auto {
@@ -20350,6 +20493,22 @@ button,
 
   .xl\:ml-24 {
     margin-left: 6rem;
+  }
+
+  .xl\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .xl\:mr-48 {
+    margin-right: 12rem;
+  }
+
+  .xl\:mb-48 {
+    margin-bottom: 12rem;
+  }
+
+  .xl\:ml-48 {
+    margin-left: 12rem;
   }
 
   .xl\:mt-auto {
