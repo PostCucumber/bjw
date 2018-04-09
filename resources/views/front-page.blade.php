@@ -9,7 +9,7 @@
     </div>
 </div>
 <div class="flex-col bg-black h-auto text-white">
-    <h1 class="text-center text-4xl border-b-2 border-bottom border-brand mx-16 pt-16 pb-8">PXGCV-MC68K-PHQ3Y-36FHW-D6PRVA Journey of Hope</h1>
+    <h1 class="text-center text-4xl border-b-2 border-bottom border-brand mx-16 pt-16 pb-8">A Journey of Hope</h1>
     <p class="text-left mx-8 md:mx-16 leading-loose text-lg pt-8 pb-8 lg:pb-16">Big Jim’s Walk, Inc is a non-profit organization with advocates serving the community and directing those who suffer from addiction. We assist in addiction recovery by bringing awareness to the epidemic of addiction through a message of hope in Jesus Christ! Big Jim’s Walk plans to build an addiction recovery center, C.A.M.P Redemption, with help from donors and other community members.</p>
 </div>
 <div class="bg-black">
