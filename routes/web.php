@@ -1,7 +1,7 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
+--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
 |
@@ -16,11 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/the-walk', 'TheWalkController@index')->name('blog');
-
+    
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/reg', function() {
-    return view('reg');
-});
