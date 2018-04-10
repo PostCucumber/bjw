@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('front-page');
 });
 
-Route::get('/kiosk', function () {
-    return view('kiosk');
-});
-
 Route::get('/the-walk', 'TheWalkController@index')->name('blog');
 
 Auth::routes();
