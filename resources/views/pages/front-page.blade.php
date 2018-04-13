@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="front-page-cover-image flex h-screen bg-cover bg-top mt-12">
+<div class="front-page-cover-image flex h-screen bg-cover bg-top">
     <div class="absolute mt-24 ml-16 pin-t pin-l">
         <img class="w-48" src="https://bigjimswalk.com/wp-content/themes/vega/assets/img/BJW_logo-trans.png">
     </div>

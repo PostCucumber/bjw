@@ -1,1 +1,4 @@
 @extends('layouts.app')
+@section('content')
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus ipsum, posuere eget diam eu, suscipit pharetra lorem. Cras imperdiet ipsum ac orci pellentesque imperdiet. Ut a dolor ac purus tincidunt finibus a vel nisl. In hac habitasse platea dictumst. Nunc ac viverra erat. Proin quis odio vitae turpis aliquam interdum sed et diam. Cras faucibus euismod dui at mollis. Maecenas ornare tristique risus ut pretium. Aliquam eros lorem, commodo tempor scelerisque ut, facilisis non ipsum. Cras elit purus, interdum vitae elit sed, imperdiet varius ipsum. Sed orci nibh, pellentesque nec mattis at, scelerisque at sapien. Duis fermentum porta risus. Nunc et mauris luctus, aliquet odio a, convallis neque. Morbi eget posuere erat. Praesent bibendum, purus quis malesuada semper, magna nibh volutpat ante, a convallis elit felis commodo sapien.</p>
+@endsection

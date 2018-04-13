@@ -5054,6 +5054,10 @@ button,
   background-image: url('/storage/img/logo.svg');
 }
 
+.hiker {
+  background-image: url('https://bigjimswalk.com/wp-content/themes/vega/assets/img/hiker.png');
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

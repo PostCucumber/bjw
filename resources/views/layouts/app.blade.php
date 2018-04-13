@@ -23,9 +23,12 @@
 <body>
     <div id="app">
         <main>
-        @include('partials.nav')
-        @yield('content')
-        @include('partials.foot')
+            @include('partials.nav')
+            @include('partials.top')
+            <div class="bg-black p-4">
+                @yield('content')
+            </div>
+            @include('partials.foot')
         </main>
     </div>
 </body>
