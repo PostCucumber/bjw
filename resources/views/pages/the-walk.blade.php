@@ -1,6 +1,4 @@
 @extends('layouts.app')
-
-@yield('navigation')
 @section('content')
 <div class="max-w-sm rounded overflow-hidden shadow-lg">
   <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
@@ -16,4 +14,8 @@
     <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
   </div>
 </div>
+<pre class="bg-grey-lightest">
+  <?php print_r($posts); ?>
+</pre>
 @endsection
+

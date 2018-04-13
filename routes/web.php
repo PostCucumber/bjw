@@ -12,11 +12,37 @@
 */
 
 Route::get('/', function () {
-    return view('front-page');
+    return view('pages/front-page');
 });
 
 Route::get('/the-walk', 'TheWalkController@index')->name('blog');
 
-Auth::routes();
+Route::get('/about', function () {
+    return view('pages/about');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/board-members', function () {
+    return view('pages/board-members');
+});
+
+Route::get('/cpc', function () {
+    return view('pages/cpc');
+});
+
+Route::get('/testimonies', function () {
+    return view('pages/testimonies');
+});
+
+Route::get('/shop', function () {
+    return view('pages/shop');
+});
+
+Route::get('/contact', function () {
+    return view('pages/contact');
+});
+
+Route::get('/contribute', function () {
+    return view('pages/contribute');
+});
+
+Auth::routes();

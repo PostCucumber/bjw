@@ -23,22 +23,9 @@
 <body>
     <div id="app">
         <main>
-            @section('navigation')
-            <div class="flex flex-col">
-                <div class="absolute pin-t pin-l py-4 px-4 bg-black w-full h-12">
-                    <a href="/the-walk" class="no-underline font-Rubik text-white hover:text-brand px-2">The Walk</a>
-                    <a href="" class="no-underline font-normal text-white hover:text-brand px-2">About</a>
-                    <a href="" class="no-underline font-normal text-white hover:text-brand px-2">Testimonies</a>
-                    <a href="" class="no-underline font-normal text-white hover:text-brand px-2">Contact</a>
-                </div>
-                <div class="absolute pin-t pin-r py-4 px-4 bg-brand h-12">
-                    <a href="" class="no-underline font-normal text-white hover:text-black px-2">Contribute</a>
-                </div>
-            </div>
-            @endsection
-
-            @yield('navigation')
-            @yield('content')
+        @include('partials.nav')
+        @yield('content')
+        @include('partials.foot')
         </main>
     </div>
 </body>
