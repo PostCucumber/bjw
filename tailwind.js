@@ -211,6 +211,9 @@ module.exports = {
   */
 
   fonts: {
+    rubik: [
+      "Rubik"
+    ],
     sans: [
       "system-ui",
       "BlinkMacSystemFont",

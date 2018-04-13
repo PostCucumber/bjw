@@ -15,19 +15,18 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet" type="text/css">
     <!-- Styles -->
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
-        <main>
+        <main class="font-rubik">
             @include('partials.nav')
             <?php if(!(Request::is('/'))) { ?>
                 @include('partials.top')
             <?php } ?>
-            <div class="bg-black">
+            <div class="bg-black text-white">
             @yield('content')
             </div>
             @include('partials.foot')

@@ -2666,6 +2666,10 @@ button,
   clear: both;
 }
 
+.font-rubik {
+  font-family: Rubik;
+}
+
 .font-sans {
   font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -7022,6 +7026,10 @@ button,
     clear: both;
   }
 
+  .sm\:font-rubik {
+    font-family: Rubik;
+  }
+
   .sm\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -11341,6 +11349,10 @@ button,
     content: "";
     display: table;
     clear: both;
+  }
+
+  .md\:font-rubik {
+    font-family: Rubik;
   }
 
   .md\:font-sans {
@@ -15664,6 +15676,10 @@ button,
     clear: both;
   }
 
+  .lg\:font-rubik {
+    font-family: Rubik;
+  }
+
   .lg\:font-sans {
     font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
@@ -19983,6 +19999,10 @@ button,
     content: "";
     display: table;
     clear: both;
+  }
+
+  .xl\:font-rubik {
+    font-family: Rubik;
   }
 
   .xl\:font-sans {
