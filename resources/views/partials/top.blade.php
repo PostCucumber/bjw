@@ -1,4 +1,3 @@
-
 <div class="bg-white relative h-32 mt-16 px-4">
     <div class="p-8">    
         <h1>Page Title</h1>

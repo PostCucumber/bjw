@@ -25,7 +25,7 @@
         <main>
             @include('partials.nav')
             @include('partials.top')
-            <div class="bg-black p-4">
+            <div class="bg-black py-4 h-screen">
                 @yield('content')
             </div>
             @include('partials.foot')

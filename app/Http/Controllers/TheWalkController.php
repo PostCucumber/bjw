@@ -13,7 +13,7 @@ class TheWalkController extends Controller
         
         $facebook = new FaceBookFeed();
         $posts = $facebook->fetch(5);
-        
+
         return view('pages/the-walk',compact('posts'));
     }
 }
