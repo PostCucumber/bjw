@@ -1,4 +1,4 @@
-<div class="flex flex-col">
+<div class="flex">
     <div class="absolute pin-t pin-l py-4 bg-black w-full h-12">
         <a href="/the-walk" class="no-underline font-Rubik text-white hover:text-brand pr-4 w-12">The Walk</a>
         <a href="/about" class="no-underline font-normal text-white hover:text-brand pr-4">About</a>

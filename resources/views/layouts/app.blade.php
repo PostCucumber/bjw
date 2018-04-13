@@ -24,9 +24,8 @@
     <div id="app">
         <main>
             @include('partials.nav')
-            @include('partials.top')
-            <div class="bg-black py-4 h-screen">
-                @yield('content')
+            <div class="bg-black">
+            @yield('content')
             </div>
             @include('partials.foot')
         </main>

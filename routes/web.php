@@ -11,11 +11,15 @@
 |
 */
 
-Route::get('/', 'FrontPageController@index')->name('front-page');
+Route::get('/', function () {
+    return view('pages/front-page');
+});
 
 Route::get('/the-walk', 'TheWalkController@index')->name('blog');
 
-Route::get('/about', 'AboutController@index')->name('about');
+Route::get('/about', function () {
+    return view('pages/about');
+});
 
 Route::get('/board-members', function () {
     return view('pages/board-members');
