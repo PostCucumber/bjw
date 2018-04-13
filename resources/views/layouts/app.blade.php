@@ -24,6 +24,9 @@
     <div id="app">
         <main>
             @include('partials.nav')
+            <?php if(!(Request::is('/'))) { ?>
+                @include('partials.top')
+            <?php } ?>
             <div class="bg-black">
             @yield('content')
             </div>
