@@ -23,9 +23,9 @@
     <div id="app">
         <main class="font-rubik">
             @include('partials.nav')
-            <?php if(!(Request::is('/'))) { ?>
+            @if(!(Request::is('/')))
                 @include('partials.top')
-            <?php } ?>
+            @endif
             <div class="bg-black text-white">
             @yield('content')
             </div>

@@ -14,7 +14,7 @@
     <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker">#winter</span>
   </div>
 </div>
-<pre class="bg-grey-lightest">
+<pre class="bg-grey-lightest text-black">
   <?php print_r($posts); ?>
 </pre>
 @endsection
